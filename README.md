@@ -1,0 +1,2 @@
+# F# Immutable Variable Bug
+This example demonstrates a common misunderstanding in F# regarding the immutability of variables. The `swap` function attempts to swap the values of two variables, but due to F#'s immutable nature, it only affects local copies. The original variables remain unchanged.  The solution demonstrates how to correctly swap values using tuples or a helper function to return new values.
